@@ -249,7 +249,7 @@ if st.session_state.story_history:
 
             if st.button(
                 f"{icons[i]}   {option}",
-                key=f"choice_{i}",
+                key=f"scene_{len(st.session_state.story_history)}_{i}",
                 use_container_width=True,
             ):
 
@@ -260,16 +260,3 @@ if st.session_state.story_history:
                 st.session_state.story_history.append(new_scene)
 
                 st.rerun()
-
-        if st.button(
-            f"{icons[i]}   {option}",
-            key=f"choice_{i}",
-            use_container_width=True,
-        ):
-            response = continue_story(option)
-
-            new_scene = json.loads(response)
-
-            st.session_state.story_history.append(new_scene)
-
-            st.rerun()
