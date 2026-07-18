@@ -72,6 +72,7 @@ Every decision affects how the story progresses, creating unique experiences.
 ### 📚 Story History
 Keeps track of previously generated scenes, allowing users to revisit the adventure.
 
+---
 ### 🎭 Genre Selection
 Supports multiple genres including:
 
@@ -80,7 +81,7 @@ Supports multiple genres including:
 - Mystery
 - Adventure
 - Sci-Fi
-
+---
 ### 🎨 Art Styles
 
 - Anime
