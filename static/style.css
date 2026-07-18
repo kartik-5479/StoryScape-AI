@@ -1,0 +1,285 @@
+.main {
+    background: #f6f8fc;
+}
+
+h1 {
+    color: #2d3748;
+    font-weight: 700;
+}
+
+.story-card{
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:28px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.10);
+
+    border-left:6px solid #6C63FF;
+
+    min-height:430px;
+}
+
+.story-card h2{
+
+    color:#4F46E5;
+
+    margin-bottom:18px;
+
+    font-size:1.8rem;
+}
+
+.story-card p{
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+
+    color:#374151;
+
+    text-align:justify;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #6C63FF, #4F46E5);
+    color: white;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(79,70,229,0.35);
+}
+
+.hero h1 {
+    color: white;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.hero p {
+    margin-top: 12px;
+    font-size: 1.15rem;
+    opacity: 0.95;
+}
+
+/* ---------- Center Sidebar ---------- */
+
+section[data-testid="stSidebar"] {
+    text-align: center;
+}
+
+/* Center headings */
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] label {
+    text-align: center !important;
+}
+
+/* Center buttons */
+section[data-testid="stSidebar"] .stButton {
+    display: flex;
+    justify-content: center;
+}
+
+section[data-testid="stSidebar"] .stButton button {
+    width: 90%;
+    border-radius: 12px;
+}
+
+/* Center info box */
+section[data-testid="stSidebar"] [data-testid="stAlert"] {
+    text-align: center;
+}
+
+/* Center caption */
+section[data-testid="stSidebar"] .stCaption {
+    text-align: center;
+}
+
+/* ---------- Sidebar Header ---------- */
+
+.sidebar-header {
+    background: linear-gradient(135deg, #6C63FF, #4F46E5);
+    padding: 22px 18px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(79,70,229,0.35);
+}
+
+.sidebar-header h2 {
+    color: white;
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.sidebar-header p {
+    color: rgba(255,255,255,0.9);
+    margin-top: 8px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* ---------- Landing Page ---------- */
+
+.landing-page{
+    text-align:center;
+    margin-top:40px;
+}
+
+.landing-page h1{
+    font-size:3rem;
+    font-weight:800;
+    color:#4F46E5;
+    margin-bottom:12px;
+}
+
+.landing-page p{
+    font-size:1.2rem;
+    color:#555;
+    line-height:1.8;
+}
+
+/* ---------- Genre Cards ---------- */
+
+.genre-card{
+    background:linear-gradient(135deg,#6C63FF,#4F46E5);
+    color:white;
+    border-radius:18px;
+    padding:20px 10px;
+    text-align:center;
+    font-size:1.1rem;
+    font-weight:600;
+    box-shadow:0 8px 20px rgba(79,70,229,.25);
+    transition:0.3s;
+    cursor:default;
+}
+
+.genre-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 14px 30px rgba(79,70,229,.45);
+}
+
+/* ---------- Premium Choice Buttons ---------- */
+
+.stButton{
+    margin-bottom:20px;
+}
+
+.stButton > button{
+
+    width:100%;
+
+    text-align:left;
+
+    padding:22px 30px;
+
+    border:none;
+
+    border-left:6px solid #6C63FF;
+
+    border-radius:18px;
+
+    background:linear-gradient(135deg,#1F2937,#111827);
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    line-height:1.6;
+
+    transition:all .25s ease;
+
+    box-shadow:0 10px 24px rgba(0,0,0,.18);
+}
+
+.stButton > button:hover{
+
+    transform:translateY(-4px) scale(1.01);
+
+    border-left:6px solid #A78BFA;
+
+    background:linear-gradient(135deg,#374151,#1F2937);
+
+    box-shadow:0 18px 40px rgba(108,99,255,.35);
+
+    cursor:pointer;
+}
+
+.stButton > button:focus{
+
+    outline:none;
+
+    border-left:6px solid #C4B5FD;
+}
+
+
+/* ---------- Choice Section ---------- */
+
+.choice-title{
+    text-align:center;
+    margin:55px 0 35px 0;
+}
+
+.choice-title h2{
+    font-size:2.3rem;
+    font-weight:800;
+    color:#4F46E5;
+    margin-bottom:10px;
+}
+
+.choice-title p{
+    color:#6B7280;
+    font-size:1.05rem;
+}
+
+/* ---------- Ending Screen ---------- */
+
+.ending-screen{
+
+    margin-top:50px;
+
+    text-align:center;
+
+    padding:45px;
+
+    border-radius:22px;
+
+    background:linear-gradient(135deg,#6C63FF,#4F46E5);
+
+    color:white;
+
+    box-shadow:0 12px 35px rgba(79,70,229,.35);
+}
+
+.ending-screen h1{
+
+    color:white;
+
+    font-size:3rem;
+
+    margin-bottom:15px;
+
+    font-weight:800;
+}
+
+.ending-screen p{
+
+    color:white;
+
+    font-size:1.2rem;
+
+    opacity:.95;
+}
