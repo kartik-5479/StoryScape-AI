@@ -7,7 +7,7 @@
 Create immersive adventures with dynamic storytelling, AI-generated artwork, and voice narration.
 
 🚀 **Live Demo:**  
-👉 **YOUR_STREAMLIT_LINK_HERE**
+👉 **https://storyscape-ai-d8aw.streamlit.app/**
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
